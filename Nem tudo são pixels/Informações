@@ -1,0 +1,55 @@
+# Tipos numéricos
+
+* <interger> Numero inteiro como -10 ou 223
+* <number> Número decimal cmo -2.4, 64 ou 0.234
+* <dimension> É um <number> cim uma unidade junto: 90deg, 2s, 8px
+* <percentagem> Representa a fração de outro número: 50%
+
+## Unidades comuns
+
+* <length> Representa um valor de distância: px, em, vw
+* <angle> Representa um ângulo: deg, rad, turn
+* <time> Representa um temp: s, ms
+* <resolution> Representa resoluções para dispositivos: dpi
+
+# Distâncias absolutas <length>
+
+São fixas e não alteram seu valor.
+
+Unidade/ Nome / Equivalência
+cm/ centímetros/ 1cm = 96px/2.54
+in/ inches (polegadas)/ 1in = 2.5 4cm = 96px
+px/ pixels / 1px = 1/96th of 1in
+
+* o mais comum e mais utilizado é o **px**
+* não recomendado usar cm
+
+# Distância relativas
+
+São relativas a algum outro valor, pode ser o elemento pai ou root ou o tamanho da tela
+
+* Benefício: maior adaptação aos diferentes tipos de tela
+
+Unidade/ relativo a 
+em / tamanho da font do pai
+rem/ tamanho da font do elemento raiz (root/html)
+vw /1% da viewport widgt
+vh/ 1% da viewport height
+
+# Posições 
+
+<position>
+
+Representa um conjunto de coordenadas 2D:
+-top, right, bottom, left e center
+
+* Usado para alguns tipos de propriedades
+* Não confundir com a propriedade 'position'
+
+#Funções
+
+Em programação, funções são reconhecidas por causar um reaproveitamento de código.
+* rgb ()
+* hsl ()
+* url ()
+* calc ()
